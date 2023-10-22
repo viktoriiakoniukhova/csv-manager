@@ -1,6 +1,6 @@
 # CSV manager
 
-Thus project if for validating CSV table with lawyers according to certain rules.
+This project if for validating CSV table with lawyers according to certain rules.
 
 ## Available Scripts
 
