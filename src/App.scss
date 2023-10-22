@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 2em;
+  font-family: "Lato";
+  .wrapper_input_label__custom {
+    background-color: #92c47d;
+    border: 1px solid #008000;
+    padding: 0.5em;
+    color: #fff;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .wrapper_table {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    table {
+      border-collapse: collapse;
+      border: 1px solid;
+      th,
+      td {
+        border: 1px solid;
+        padding: 0.2em;
+        text-align: center;
+      }
+      th {
+        background-color: #cbe3f6;
+      }
+    }
+  }
+}
+
+.error {
+  background-color: #f4cccc;
+  color: #000;
+}
+
+.error__fatal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4cccc;
+  border: 1px solid #ff0000;
+  width: 80%;
+  padding: 1em;
+  color: #000;
+}
